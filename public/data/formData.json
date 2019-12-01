@@ -1,0 +1,92 @@
+{"formData": [
+    {   
+        "id": 0,
+        "name": "firstname",
+        "component": "input",
+        "type": "text",
+        "value": "",
+        "placeholder": "First Name"
+    },
+    {
+        "id": 1,
+        "name": "lastname",
+        "component": "input",
+        "type": "text",
+        "value": "",
+        "placeholder": "Last Name"
+    },
+
+    {
+        "id": 2,
+        "name": "hasEmail",
+        "component": "input",
+        "type": "checkbox",
+        "value": "",
+        "placeholder": "Email",
+        "dependent": true,
+        "field": {
+            "name": "email",
+            "component": "input",
+            "type": "email",
+            "value": "",
+            "placeholder": "Email"
+        }
+    },
+
+    {
+        "id": 3,
+        "name": "tel",
+        "component": "input",
+        "type": "number",
+        "value": "",
+        "placeholder": "Telephone"
+    },
+
+    {
+        "id": 4,
+        "name": "select",
+        "component": "select",
+        "type": "select",
+        "placeholder": "Select",
+        "options": [
+            {
+                "label": "Erika",
+                "value": "4e4cf51f-b406-413a-ae46-a"
+            },
+            {
+                "label": "Jones",
+                "value": "4e4cf51f-b406-413a-ae46-s"
+            },
+            {
+                "label": "Rajan",
+                "value": "4e4cf51f-b406-413a-ae46-sf"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "multiselect",
+        "component": "select",
+        "type": "multi-select",
+        "placeholder": "Multi Select",
+        "options": ["Option 1", "Option 2", "Option 3"]
+    }, 
+
+    {
+        "id": 6,
+        "name": "radio",
+        "component": "radio",
+        "type": "radio",
+        "placeholder": "Gender",
+        "options": ["Male", "Female"]
+    }, 
+
+    {
+        "id": 7,
+        "name": "textarea",
+        "component": "textarea",
+        "type": "textarea",
+        "placeholder": "Text Area"
+    }
+
+]}
